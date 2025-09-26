@@ -12,7 +12,7 @@ export default async function Footer() {
   const productCategories = await listCategories()
 
   return (
-    <footer className="w-full bg-gradient-to-r from-indigo-700 via-indigo-800 to-indigo-900 text-white">
+    <footer className="w-full bg-blue-500 text-white">
       <div className="content-container flex flex-col w-full">
         {/* Top section */}
         <div className="flex flex-col gap-y-6 xsmall:flex-row items-start justify-between py-16 border-b border-white/10">
@@ -22,7 +22,7 @@ export default async function Footer() {
               href="/"
               className="txt-compact-xlarge-plus text-white hover:text-indigo-200 uppercase transition-colors"
             >
-              International Unique Store
+              Shago Store
             </LocalizedClientLink>
           </div>
 

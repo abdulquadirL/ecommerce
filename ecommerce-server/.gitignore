@@ -1,5 +1,5 @@
 /dist
-.env
+# .env
 .DS_Store
 /uploads
 /node_modules
@@ -12,7 +12,7 @@ coverage
 !src/**
 
 ./tsconfig.tsbuildinfo
-medusa-db.sql
+# medusa-db.sql
 build
 .cache
 
